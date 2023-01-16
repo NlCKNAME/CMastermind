@@ -25,7 +25,7 @@ void CMastermind::m_modifie(int m_taille_code, int m_nb_essaiMax)
 
 void CMastermind::usage()
 {
-	cout << "Voici les regles du jeu : \nPour commencer, il faut dans un premier temps choisir entre un mode de jeu defini pas vous et alors\navec des parametres pre-defini (Code de 6 chiffres avec 8 essais).\nVotre but est de, comme sur le vrai Mastermind, trouver le code genere par \nl'ordinateur sans depasser le nombre d'essai maximum." << endl;
+	cout << "Voici les regles du jeu : \nPour commencer, il faut dans un premier temps choisir entre un mode de jeu defini par vous ou alors\navec des parametres pre-defini (Code de 6 chiffres avec 8 essais).\nVotre but est de, comme sur le vrai Mastermind, trouver le code genere par \nl'ordinateur sans depasser le nombre d'essai maximum." << endl;
 
 	system("PAUSE"); //Peut prendre un certain temps en fonction de la machine
 };
